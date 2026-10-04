@@ -50,9 +50,9 @@ def render_markdown_report(
     """
     REPORTS_PATH.mkdir(parents=True, exist_ok=True)
 
-    if filename is None:
-        filename = f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
-    elif not filename.endswith(".md"):
+    filename = Path(filename).name if filename else f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+
+    if not filename.endswith(".md"):
         filename += ".md"
 
     report_path = REPORTS_PATH / filename
