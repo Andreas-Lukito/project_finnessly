@@ -1,0 +1,176 @@
+prompt_id,category,stock,prompt_style,prompt
+1,earnings,AAPL,direct,Give me the latest earnings and financial results news about AAPL.
+2,earnings,AAPL,detailed,"I'm preparing an investment brief on AAPL. Find and analyze recent earnings and financial results news, cover the key details, and explain why they matter."
+3,earnings,AAPL,conversational,"Hey, what's been going on with AAPL lately? Anything interesting in the earnings and financial results space I should know about?"
+4,earnings,AAPL,comparative,How does the recent earnings and financial results news for AAPL look compared to its industry peers? Summarize the key developments.
+5,earnings,AAPL,time_anchored,What earnings and financial results news about AAPL has come out over the past week? Summarize the most important items.
+6,earnings,AAPL,analytical,Analyze the recent earnings and financial results news surrounding AAPL and assess what impact it could have on the company's outlook.
+7,earnings,AAPL,brief,"AAPL earnings results — latest news, quick report."
+8,earnings,NVDA,direct,Give me the latest earnings and financial results news about NVDA.
+9,earnings,NVDA,detailed,"I'm preparing an investment brief on NVDA. Find and analyze recent earnings and financial results news, cover the key details, and explain why they matter."
+10,earnings,NVDA,conversational,"Hey, what's been going on with NVDA lately? Anything interesting in the earnings and financial results space I should know about?"
+11,earnings,NVDA,comparative,How does the recent earnings and financial results news for NVDA look compared to its industry peers? Summarize the key developments.
+12,earnings,NVDA,time_anchored,What earnings and financial results news about NVDA has come out over the past week? Summarize the most important items.
+13,earnings,NVDA,analytical,Analyze the recent earnings and financial results news surrounding NVDA and assess what impact it could have on the company's outlook.
+14,earnings,NVDA,brief,"NVDA earnings results — latest news, quick report."
+15,earnings,TSLA,direct,Give me the latest earnings and financial results news about TSLA.
+16,earnings,TSLA,detailed,"I'm preparing an investment brief on TSLA. Find and analyze recent earnings and financial results news, cover the key details, and explain why they matter."
+17,earnings,TSLA,conversational,"Hey, what's been going on with TSLA lately? Anything interesting in the earnings and financial results space I should know about?"
+18,earnings,TSLA,comparative,How does the recent earnings and financial results news for TSLA look compared to its industry peers? Summarize the key developments.
+19,earnings,TSLA,time_anchored,What earnings and financial results news about TSLA has come out over the past week? Summarize the most important items.
+20,earnings,TSLA,analytical,Analyze the recent earnings and financial results news surrounding TSLA and assess what impact it could have on the company's outlook.
+21,earnings,TSLA,brief,"TSLA earnings results — latest news, quick report."
+22,earnings,MSFT,direct,Give me the latest earnings and financial results news about MSFT.
+23,earnings,MSFT,detailed,"I'm preparing an investment brief on MSFT. Find and analyze recent earnings and financial results news, cover the key details, and explain why they matter."
+24,earnings,MSFT,conversational,"Hey, what's been going on with MSFT lately? Anything interesting in the earnings and financial results space I should know about?"
+25,earnings,MSFT,comparative,How does the recent earnings and financial results news for MSFT look compared to its industry peers? Summarize the key developments.
+26,earnings,MSFT,time_anchored,What earnings and financial results news about MSFT has come out over the past week? Summarize the most important items.
+27,earnings,MSFT,analytical,Analyze the recent earnings and financial results news surrounding MSFT and assess what impact it could have on the company's outlook.
+28,earnings,MSFT,brief,"MSFT earnings results — latest news, quick report."
+29,earnings,AMZN,direct,Give me the latest earnings and financial results news about AMZN.
+30,earnings,AMZN,detailed,"I'm preparing an investment brief on AMZN. Find and analyze recent earnings and financial results news, cover the key details, and explain why they matter."
+31,earnings,AMZN,conversational,"Hey, what's been going on with AMZN lately? Anything interesting in the earnings and financial results space I should know about?"
+32,earnings,AMZN,comparative,How does the recent earnings and financial results news for AMZN look compared to its industry peers? Summarize the key developments.
+33,earnings,AMZN,time_anchored,What earnings and financial results news about AMZN has come out over the past week? Summarize the most important items.
+34,earnings,AMZN,analytical,Analyze the recent earnings and financial results news surrounding AMZN and assess what impact it could have on the company's outlook.
+35,earnings,AMZN,brief,"AMZN earnings results — latest news, quick report."
+36,analyst_ratings,AAPL,direct,Give me the latest analyst ratings and price target changes news about AAPL.
+37,analyst_ratings,AAPL,detailed,"I'm preparing an investment brief on AAPL. Find and analyze recent analyst ratings and price target changes news, cover the key details, and explain why they matter."
+38,analyst_ratings,AAPL,conversational,"Hey, what's been going on with AAPL lately? Anything interesting in the analyst ratings and price target changes space I should know about?"
+39,analyst_ratings,AAPL,comparative,How does the recent analyst ratings and price target changes news for AAPL look compared to its industry peers? Summarize the key developments.
+40,analyst_ratings,AAPL,time_anchored,What analyst ratings and price target changes news about AAPL has come out over the past week? Summarize the most important items.
+41,analyst_ratings,AAPL,analytical,Analyze the recent analyst ratings and price target changes news surrounding AAPL and assess what impact it could have on the company's outlook.
+42,analyst_ratings,AAPL,brief,"AAPL analyst rating — latest news, quick report."
+43,analyst_ratings,NVDA,direct,Give me the latest analyst ratings and price target changes news about NVDA.
+44,analyst_ratings,NVDA,detailed,"I'm preparing an investment brief on NVDA. Find and analyze recent analyst ratings and price target changes news, cover the key details, and explain why they matter."
+45,analyst_ratings,NVDA,conversational,"Hey, what's been going on with NVDA lately? Anything interesting in the analyst ratings and price target changes space I should know about?"
+46,analyst_ratings,NVDA,comparative,How does the recent analyst ratings and price target changes news for NVDA look compared to its industry peers? Summarize the key developments.
+47,analyst_ratings,NVDA,time_anchored,What analyst ratings and price target changes news about NVDA has come out over the past week? Summarize the most important items.
+48,analyst_ratings,NVDA,analytical,Analyze the recent analyst ratings and price target changes news surrounding NVDA and assess what impact it could have on the company's outlook.
+49,analyst_ratings,NVDA,brief,"NVDA analyst rating — latest news, quick report."
+50,analyst_ratings,TSLA,direct,Give me the latest analyst ratings and price target changes news about TSLA.
+51,analyst_ratings,TSLA,detailed,"I'm preparing an investment brief on TSLA. Find and analyze recent analyst ratings and price target changes news, cover the key details, and explain why they matter."
+52,analyst_ratings,TSLA,conversational,"Hey, what's been going on with TSLA lately? Anything interesting in the analyst ratings and price target changes space I should know about?"
+53,analyst_ratings,TSLA,comparative,How does the recent analyst ratings and price target changes news for TSLA look compared to its industry peers? Summarize the key developments.
+54,analyst_ratings,TSLA,time_anchored,What analyst ratings and price target changes news about TSLA has come out over the past week? Summarize the most important items.
+55,analyst_ratings,TSLA,analytical,Analyze the recent analyst ratings and price target changes news surrounding TSLA and assess what impact it could have on the company's outlook.
+56,analyst_ratings,TSLA,brief,"TSLA analyst rating — latest news, quick report."
+57,analyst_ratings,MSFT,direct,Give me the latest analyst ratings and price target changes news about MSFT.
+58,analyst_ratings,MSFT,detailed,"I'm preparing an investment brief on MSFT. Find and analyze recent analyst ratings and price target changes news, cover the key details, and explain why they matter."
+59,analyst_ratings,MSFT,conversational,"Hey, what's been going on with MSFT lately? Anything interesting in the analyst ratings and price target changes space I should know about?"
+60,analyst_ratings,MSFT,comparative,How does the recent analyst ratings and price target changes news for MSFT look compared to its industry peers? Summarize the key developments.
+61,analyst_ratings,MSFT,time_anchored,What analyst ratings and price target changes news about MSFT has come out over the past week? Summarize the most important items.
+62,analyst_ratings,MSFT,analytical,Analyze the recent analyst ratings and price target changes news surrounding MSFT and assess what impact it could have on the company's outlook.
+63,analyst_ratings,MSFT,brief,"MSFT analyst rating — latest news, quick report."
+64,analyst_ratings,AMZN,direct,Give me the latest analyst ratings and price target changes news about AMZN.
+65,analyst_ratings,AMZN,detailed,"I'm preparing an investment brief on AMZN. Find and analyze recent analyst ratings and price target changes news, cover the key details, and explain why they matter."
+66,analyst_ratings,AMZN,conversational,"Hey, what's been going on with AMZN lately? Anything interesting in the analyst ratings and price target changes space I should know about?"
+67,analyst_ratings,AMZN,comparative,How does the recent analyst ratings and price target changes news for AMZN look compared to its industry peers? Summarize the key developments.
+68,analyst_ratings,AMZN,time_anchored,What analyst ratings and price target changes news about AMZN has come out over the past week? Summarize the most important items.
+69,analyst_ratings,AMZN,analytical,Analyze the recent analyst ratings and price target changes news surrounding AMZN and assess what impact it could have on the company's outlook.
+70,analyst_ratings,AMZN,brief,"AMZN analyst rating — latest news, quick report."
+71,product_innovation,AAPL,direct,Give me the latest product launches and innovation news about AAPL.
+72,product_innovation,AAPL,detailed,"I'm preparing an investment brief on AAPL. Find and analyze recent product launches and innovation news, cover the key details, and explain why they matter."
+73,product_innovation,AAPL,conversational,"Hey, what's been going on with AAPL lately? Anything interesting in the product launches and innovation space I should know about?"
+74,product_innovation,AAPL,comparative,How does the recent product launches and innovation news for AAPL look compared to its industry peers? Summarize the key developments.
+75,product_innovation,AAPL,time_anchored,What product launches and innovation news about AAPL has come out over the past week? Summarize the most important items.
+76,product_innovation,AAPL,analytical,Analyze the recent product launches and innovation news surrounding AAPL and assess what impact it could have on the company's outlook.
+77,product_innovation,AAPL,brief,"AAPL product launch — latest news, quick report."
+78,product_innovation,NVDA,direct,Give me the latest product launches and innovation news about NVDA.
+79,product_innovation,NVDA,detailed,"I'm preparing an investment brief on NVDA. Find and analyze recent product launches and innovation news, cover the key details, and explain why they matter."
+80,product_innovation,NVDA,conversational,"Hey, what's been going on with NVDA lately? Anything interesting in the product launches and innovation space I should know about?"
+81,product_innovation,NVDA,comparative,How does the recent product launches and innovation news for NVDA look compared to its industry peers? Summarize the key developments.
+82,product_innovation,NVDA,time_anchored,What product launches and innovation news about NVDA has come out over the past week? Summarize the most important items.
+83,product_innovation,NVDA,analytical,Analyze the recent product launches and innovation news surrounding NVDA and assess what impact it could have on the company's outlook.
+84,product_innovation,NVDA,brief,"NVDA product launch — latest news, quick report."
+85,product_innovation,TSLA,direct,Give me the latest product launches and innovation news about TSLA.
+86,product_innovation,TSLA,detailed,"I'm preparing an investment brief on TSLA. Find and analyze recent product launches and innovation news, cover the key details, and explain why they matter."
+87,product_innovation,TSLA,conversational,"Hey, what's been going on with TSLA lately? Anything interesting in the product launches and innovation space I should know about?"
+88,product_innovation,TSLA,comparative,How does the recent product launches and innovation news for TSLA look compared to its industry peers? Summarize the key developments.
+89,product_innovation,TSLA,time_anchored,What product launches and innovation news about TSLA has come out over the past week? Summarize the most important items.
+90,product_innovation,TSLA,analytical,Analyze the recent product launches and innovation news surrounding TSLA and assess what impact it could have on the company's outlook.
+91,product_innovation,TSLA,brief,"TSLA product launch — latest news, quick report."
+92,product_innovation,MSFT,direct,Give me the latest product launches and innovation news about MSFT.
+93,product_innovation,MSFT,detailed,"I'm preparing an investment brief on MSFT. Find and analyze recent product launches and innovation news, cover the key details, and explain why they matter."
+94,product_innovation,MSFT,conversational,"Hey, what's been going on with MSFT lately? Anything interesting in the product launches and innovation space I should know about?"
+95,product_innovation,MSFT,comparative,How does the recent product launches and innovation news for MSFT look compared to its industry peers? Summarize the key developments.
+96,product_innovation,MSFT,time_anchored,What product launches and innovation news about MSFT has come out over the past week? Summarize the most important items.
+97,product_innovation,MSFT,analytical,Analyze the recent product launches and innovation news surrounding MSFT and assess what impact it could have on the company's outlook.
+98,product_innovation,MSFT,brief,"MSFT product launch — latest news, quick report."
+99,product_innovation,AMZN,direct,Give me the latest product launches and innovation news about AMZN.
+100,product_innovation,AMZN,detailed,"I'm preparing an investment brief on AMZN. Find and analyze recent product launches and innovation news, cover the key details, and explain why they matter."
+101,product_innovation,AMZN,conversational,"Hey, what's been going on with AMZN lately? Anything interesting in the product launches and innovation space I should know about?"
+102,product_innovation,AMZN,comparative,How does the recent product launches and innovation news for AMZN look compared to its industry peers? Summarize the key developments.
+103,product_innovation,AMZN,time_anchored,What product launches and innovation news about AMZN has come out over the past week? Summarize the most important items.
+104,product_innovation,AMZN,analytical,Analyze the recent product launches and innovation news surrounding AMZN and assess what impact it could have on the company's outlook.
+105,product_innovation,AMZN,brief,"AMZN product launch — latest news, quick report."
+106,market_trends,AAPL,direct,Give me the latest market trends and macroeconomic factors news about AAPL.
+107,market_trends,AAPL,detailed,"I'm preparing an investment brief on AAPL. Find and analyze recent market trends and macroeconomic factors news, cover the key details, and explain why they matter."
+108,market_trends,AAPL,conversational,"Hey, what's been going on with AAPL lately? Anything interesting in the market trends and macroeconomic factors space I should know about?"
+109,market_trends,AAPL,comparative,How does the recent market trends and macroeconomic factors news for AAPL look compared to its industry peers? Summarize the key developments.
+110,market_trends,AAPL,time_anchored,What market trends and macroeconomic factors news about AAPL has come out over the past week? Summarize the most important items.
+111,market_trends,AAPL,analytical,Analyze the recent market trends and macroeconomic factors news surrounding AAPL and assess what impact it could have on the company's outlook.
+112,market_trends,AAPL,brief,"AAPL market trend — latest news, quick report."
+113,market_trends,NVDA,direct,Give me the latest market trends and macroeconomic factors news about NVDA.
+114,market_trends,NVDA,detailed,"I'm preparing an investment brief on NVDA. Find and analyze recent market trends and macroeconomic factors news, cover the key details, and explain why they matter."
+115,market_trends,NVDA,conversational,"Hey, what's been going on with NVDA lately? Anything interesting in the market trends and macroeconomic factors space I should know about?"
+116,market_trends,NVDA,comparative,How does the recent market trends and macroeconomic factors news for NVDA look compared to its industry peers? Summarize the key developments.
+117,market_trends,NVDA,time_anchored,What market trends and macroeconomic factors news about NVDA has come out over the past week? Summarize the most important items.
+118,market_trends,NVDA,analytical,Analyze the recent market trends and macroeconomic factors news surrounding NVDA and assess what impact it could have on the company's outlook.
+119,market_trends,NVDA,brief,"NVDA market trend — latest news, quick report."
+120,market_trends,TSLA,direct,Give me the latest market trends and macroeconomic factors news about TSLA.
+121,market_trends,TSLA,detailed,"I'm preparing an investment brief on TSLA. Find and analyze recent market trends and macroeconomic factors news, cover the key details, and explain why they matter."
+122,market_trends,TSLA,conversational,"Hey, what's been going on with TSLA lately? Anything interesting in the market trends and macroeconomic factors space I should know about?"
+123,market_trends,TSLA,comparative,How does the recent market trends and macroeconomic factors news for TSLA look compared to its industry peers? Summarize the key developments.
+124,market_trends,TSLA,time_anchored,What market trends and macroeconomic factors news about TSLA has come out over the past week? Summarize the most important items.
+125,market_trends,TSLA,analytical,Analyze the recent market trends and macroeconomic factors news surrounding TSLA and assess what impact it could have on the company's outlook.
+126,market_trends,TSLA,brief,"TSLA market trend — latest news, quick report."
+127,market_trends,MSFT,direct,Give me the latest market trends and macroeconomic factors news about MSFT.
+128,market_trends,MSFT,detailed,"I'm preparing an investment brief on MSFT. Find and analyze recent market trends and macroeconomic factors news, cover the key details, and explain why they matter."
+129,market_trends,MSFT,conversational,"Hey, what's been going on with MSFT lately? Anything interesting in the market trends and macroeconomic factors space I should know about?"
+130,market_trends,MSFT,comparative,How does the recent market trends and macroeconomic factors news for MSFT look compared to its industry peers? Summarize the key developments.
+131,market_trends,MSFT,time_anchored,What market trends and macroeconomic factors news about MSFT has come out over the past week? Summarize the most important items.
+132,market_trends,MSFT,analytical,Analyze the recent market trends and macroeconomic factors news surrounding MSFT and assess what impact it could have on the company's outlook.
+133,market_trends,MSFT,brief,"MSFT market trend — latest news, quick report."
+134,market_trends,AMZN,direct,Give me the latest market trends and macroeconomic factors news about AMZN.
+135,market_trends,AMZN,detailed,"I'm preparing an investment brief on AMZN. Find and analyze recent market trends and macroeconomic factors news, cover the key details, and explain why they matter."
+136,market_trends,AMZN,conversational,"Hey, what's been going on with AMZN lately? Anything interesting in the market trends and macroeconomic factors space I should know about?"
+137,market_trends,AMZN,comparative,How does the recent market trends and macroeconomic factors news for AMZN look compared to its industry peers? Summarize the key developments.
+138,market_trends,AMZN,time_anchored,What market trends and macroeconomic factors news about AMZN has come out over the past week? Summarize the most important items.
+139,market_trends,AMZN,analytical,Analyze the recent market trends and macroeconomic factors news surrounding AMZN and assess what impact it could have on the company's outlook.
+140,market_trends,AMZN,brief,"AMZN market trend — latest news, quick report."
+141,risks_controversies,AAPL,direct,"Give me the latest risks, lawsuits, and controversies news about AAPL."
+142,risks_controversies,AAPL,detailed,"I'm preparing an investment brief on AAPL. Find and analyze recent risks, lawsuits, and controversies news, cover the key details, and explain why they matter."
+143,risks_controversies,AAPL,conversational,"Hey, what's been going on with AAPL lately? Anything interesting in the risks, lawsuits, and controversies space I should know about?"
+144,risks_controversies,AAPL,comparative,"How does the recent risks, lawsuits, and controversies news for AAPL look compared to its industry peers? Summarize the key developments."
+145,risks_controversies,AAPL,time_anchored,"What risks, lawsuits, and controversies news about AAPL has come out over the past week? Summarize the most important items."
+146,risks_controversies,AAPL,analytical,"Analyze the recent risks, lawsuits, and controversies news surrounding AAPL and assess what impact it could have on the company's outlook."
+147,risks_controversies,AAPL,brief,"AAPL risk lawsuit controversy — latest news, quick report."
+148,risks_controversies,NVDA,direct,"Give me the latest risks, lawsuits, and controversies news about NVDA."
+149,risks_controversies,NVDA,detailed,"I'm preparing an investment brief on NVDA. Find and analyze recent risks, lawsuits, and controversies news, cover the key details, and explain why they matter."
+150,risks_controversies,NVDA,conversational,"Hey, what's been going on with NVDA lately? Anything interesting in the risks, lawsuits, and controversies space I should know about?"
+151,risks_controversies,NVDA,comparative,"How does the recent risks, lawsuits, and controversies news for NVDA look compared to its industry peers? Summarize the key developments."
+152,risks_controversies,NVDA,time_anchored,"What risks, lawsuits, and controversies news about NVDA has come out over the past week? Summarize the most important items."
+153,risks_controversies,NVDA,analytical,"Analyze the recent risks, lawsuits, and controversies news surrounding NVDA and assess what impact it could have on the company's outlook."
+154,risks_controversies,NVDA,brief,"NVDA risk lawsuit controversy — latest news, quick report."
+155,risks_controversies,TSLA,direct,"Give me the latest risks, lawsuits, and controversies news about TSLA."
+156,risks_controversies,TSLA,detailed,"I'm preparing an investment brief on TSLA. Find and analyze recent risks, lawsuits, and controversies news, cover the key details, and explain why they matter."
+157,risks_controversies,TSLA,conversational,"Hey, what's been going on with TSLA lately? Anything interesting in the risks, lawsuits, and controversies space I should know about?"
+158,risks_controversies,TSLA,comparative,"How does the recent risks, lawsuits, and controversies news for TSLA look compared to its industry peers? Summarize the key developments."
+159,risks_controversies,TSLA,time_anchored,"What risks, lawsuits, and controversies news about TSLA has come out over the past week? Summarize the most important items."
+160,risks_controversies,TSLA,analytical,"Analyze the recent risks, lawsuits, and controversies news surrounding TSLA and assess what impact it could have on the company's outlook."
+161,risks_controversies,TSLA,brief,"TSLA risk lawsuit controversy — latest news, quick report."
+162,risks_controversies,MSFT,direct,"Give me the latest risks, lawsuits, and controversies news about MSFT."
+163,risks_controversies,MSFT,detailed,"I'm preparing an investment brief on MSFT. Find and analyze recent risks, lawsuits, and controversies news, cover the key details, and explain why they matter."
+164,risks_controversies,MSFT,conversational,"Hey, what's been going on with MSFT lately? Anything interesting in the risks, lawsuits, and controversies space I should know about?"
+165,risks_controversies,MSFT,comparative,"How does the recent risks, lawsuits, and controversies news for MSFT look compared to its industry peers? Summarize the key developments."
+166,risks_controversies,MSFT,time_anchored,"What risks, lawsuits, and controversies news about MSFT has come out over the past week? Summarize the most important items."
+167,risks_controversies,MSFT,analytical,"Analyze the recent risks, lawsuits, and controversies news surrounding MSFT and assess what impact it could have on the company's outlook."
+168,risks_controversies,MSFT,brief,"MSFT risk lawsuit controversy — latest news, quick report."
+169,risks_controversies,AMZN,direct,"Give me the latest risks, lawsuits, and controversies news about AMZN."
+170,risks_controversies,AMZN,detailed,"I'm preparing an investment brief on AMZN. Find and analyze recent risks, lawsuits, and controversies news, cover the key details, and explain why they matter."
+171,risks_controversies,AMZN,conversational,"Hey, what's been going on with AMZN lately? Anything interesting in the risks, lawsuits, and controversies space I should know about?"
+172,risks_controversies,AMZN,comparative,"How does the recent risks, lawsuits, and controversies news for AMZN look compared to its industry peers? Summarize the key developments."
+173,risks_controversies,AMZN,time_anchored,"What risks, lawsuits, and controversies news about AMZN has come out over the past week? Summarize the most important items."
+174,risks_controversies,AMZN,analytical,"Analyze the recent risks, lawsuits, and controversies news surrounding AMZN and assess what impact it could have on the company's outlook."
+175,risks_controversies,AMZN,brief,"AMZN risk lawsuit controversy — latest news, quick report."
