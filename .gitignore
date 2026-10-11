@@ -2,3 +2,6 @@
 /reports/
 __pycache__/
 .env
+
+.deepeval/
+evaluation_results/
