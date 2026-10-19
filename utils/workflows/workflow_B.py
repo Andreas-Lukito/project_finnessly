@@ -47,16 +47,38 @@ search_tool = search_searxng
 @tool("FinBERT Sentiment Analysis")
 def sentiment_tool(text: str, model_type: str = "finbert") -> str:
     """Analyze the sentiment of a news article text using FinBERT or BERT. Returns label and confidence score."""
-    # Debug
-    print(f"Analyzing sentiment for text: {text[-100:]}... with model: {model_type}")
     return str(analyze_sentiment(text, model_type))
 
-markdown_render_tool = markdown_render_tool
+# Tool-call recorder for evaluation instrumentation:
+# every tool call is appended with its arguments and FULL raw output string.
+TOOL_CALL_LOG = []
+
+def _spy(tool_obj):
+    """Return a copy of `tool_obj` that records every call into TOOL_CALL_LOG."""
+    original = tool_obj.func
+
+    def wrapper(*args, **kwargs):
+        output = original(*args, **kwargs)
+        TOOL_CALL_LOG.append({
+            "tool": tool_obj.name,
+            "args": args,
+            "kwargs": kwargs,
+            "output": str(output),
+        })
+        return output
+
+    return tool_obj.model_copy(update={"func": wrapper})
+
+
+# Wrap tools so every call is recorded
+search_tool = _spy(search_tool)
+sentiment_tool = _spy(sentiment_tool)
+markdown_render_tool = _spy(markdown_render_tool)
 
 #Agents
 news_gathering = Agent(
     role="news_gathering",
-    goal="Provide news latest articles about stock market and finance prompted by the user. Use the search tool to gather relevant information provide 5 until 10 news articles.",
+    goal="Proactively search the latest and relevant news about stock market and finance. Formulate effective, specific search queries for the search tool to fully utilize it, and gather 5 to 10 news articles. Never ask the user follow-up questions or whether they want a newer news source - proceed autonomously.",
     backstory="You are a news gathering agent that collects the latest news articles about stock market and finance based on user prompts. You will provide relevant and up-to-date information to assist users in making informed decisions.",
     tools=[search_tool],
     llm=llm,
@@ -142,10 +164,10 @@ crew = Crew(
     agents=[news_gathering, news_sentiment, news_summarizing, news_reporting],
     tasks=[task_gathering, task_sentiment, task_summarizing, task_reporting],
     process=Process.sequential,
-    verbose=True,
+    verbose=False,
 )
 
-async def workflow_B_run(topic: str) -> str:
+async def workflow_B_run(topic: str) -> tuple[str, list]:
     result = await crew.kickoff_async(inputs={"topic": topic})
 
-    return str(result)
+    return str(result), list(TOOL_CALL_LOG)
