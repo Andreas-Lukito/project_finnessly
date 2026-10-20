@@ -29,16 +29,24 @@ bert_model = AutoModelForSequenceClassification.from_pretrained(
 )
 
 # Create Sentiment Analysis Pipelines
+# truncation=True is explicit: articles regularly exceed the 512-token window,
+# and we want the tokenizer to cut them cleanly instead of relying on
+# the model's implicit input clamping (which triggers the
+# "Token indices sequence length is longer than..." warning).
 finbert_pipeline = pipeline(
     "text-classification",
     model=finbert_model,
-    tokenizer=finbert_tokenizer
+    tokenizer=finbert_tokenizer,
+    truncation=True,
+    max_length=512
 )
 
 bert_pipeline = pipeline(
     "text-classification",
     model=bert_model,
-    tokenizer=bert_tokenizer
+    tokenizer=bert_tokenizer,
+    truncation=True,
+    max_length=512
 )
 
 # Define Label Mapping

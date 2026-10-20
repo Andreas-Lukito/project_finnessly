@@ -1,0 +1,1 @@
+Note: I could not fetch live articles. I saved the requested markdown report to the project's reports directory as report_20261020_163813.md. Provide up to 5 article URLs or full article texts and I will produce the complete consolidated news + sentiment analysis report.
