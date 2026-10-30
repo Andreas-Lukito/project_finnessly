@@ -1,0 +1,176 @@
+prompt_id,category,stock,prompt_style,prompt
+1,positive,AAPL,direct,Which recent developments show AAPL gaining ground on investor confidence?
+2,positive,AAPL,detailed,"I'm putting together an investor note on AAPL. Pull the latest developments that signal strengthening momentum — services growth, device demand, capital returns — and explain the drivers behind each one."
+3,positive,AAPL,conversational,"Hey, anything encouraging going on with AAPL these days? Curious what's fueling the buzz around the stock."
+4,positive,AAPL,comparative,How does AAPL's latest run of good news stack up against what its rivals have been reporting?
+5,positive,AAPL,time_anchored,What has helped AAPL's momentum since the latest earnings release? Summarize the recent wins.
+6,positive,AAPL,analytical,Analyze recent coverage around AAPL and assess how the emerging tailwinds could shape its near-term outlook.
+7,positive,AAPL,brief,AAPL recent wins — quick roundup.
+8,positive,NVDA,direct,What's driving the optimism around NVDA right now?
+9,positive,NVDA,detailed,"I'm updating a holdings note on NVDA. Find the stories pointing to strengthening demand, pricing power, or margin expansion, and lay out the reasoning behind each."
+10,positive,NVDA,conversational,So what's got everyone excited about NVDA lately? Anything in the news suggest it's on a roll?
+11,positive,NVDA,comparative,How do the recent tailwinds behind NVDA measure up against the challenges its competitors are facing?
+12,positive,NVDA,time_anchored,Which NVDA developments since the start of the year suggest the company is gaining steam? List the key ones.
+13,positive,NVDA,analytical,Break down NVDA's recent news and evaluate what the emerging strength means for its guidance and industry position.
+14,positive,NVDA,brief,"NVDA momentum — top headlines, quick take."
+15,positive,TSLA,direct,What recent TSLA developments are lifting the bull case?
+16,positive,TSLA,detailed,"I'm preparing a thesis update on TSLA. Collect the signs of improving fundamentals — demand recovery, delivery trends, new-product progress — and explain what makes each one encouraging."
+17,positive,TSLA,conversational,Anything good happening with TSLA at the moment? Been hearing the story is turning around.
+18,positive,TSLA,comparative,How is TSLA's recent stretch of good news holding up against the struggles of other EV makers?
+19,positive,TSLA,time_anchored,What has gone right for TSLA over the past month? Walk me through the highlights.
+20,positive,TSLA,analytical,Analyze recent TSLA headlines and judge which improving signals could most influence the company's trajectory this year.
+21,positive,TSLA,brief,TSLA bright spots — rapid summary.
+22,positive,MSFT,direct,What does the latest MSFT news say about the company's strength?
+23,positive,MSFT,detailed,"I'm building a quarterly review of MSFT. Gather the developments showing cloud acceleration, AI adoption, or cost discipline, and detail the reasoning behind each sign of strength."
+24,positive,MSFT,conversational,Is there anything promising in the MSFT news cycle lately? Tell me what's going right for them.
+25,positive,MSFT,comparative,How do MSFT's recent wins compare with what its big-tech peers have been able to deliver?
+26,positive,MSFT,time_anchored,What favorable news has emerged for MSFT during the past quarter? Round up the main items.
+27,positive,MSFT,analytical,Review the latest MSFT coverage and interpret how the favorable signals could affect its competitive standing.
+28,positive,MSFT,brief,MSFT good news — condensed digest.
+29,positive,AMZN,direct,Which recent stories point to AMZN performing strongly?
+30,positive,AMZN,detailed,"I'm assembling an overview of AMZN for a client memo. Pull out the evidence of improving retail margins, cloud growth, or logistics efficiency, and walk through its significance."
+31,positive,AMZN,conversational,What's looking upbeat for AMZN these days? Any wins worth knowing about from the news?
+32,positive,AMZN,comparative,How does AMZN's recent run of favorable coverage compare with the headwinds reported across e-commerce and cloud rivals?
+33,positive,AMZN,time_anchored,What developments since the beginning of the year suggest AMZN is gaining ground? Highlight the standouts.
+34,positive,AMZN,analytical,Examine the latest AMZN news and assess how the improving indicators could influence the company's growth story.
+35,positive,AMZN,brief,AMZN strong signals — fast read.
+36,negative,AAPL,direct,What recent problems for AAPL should investors be watching?
+37,negative,AAPL,detailed,"I'm stress-testing my AAPL position. Find the latest stories about demand softness, regulatory pressure, or supply friction, and explain the main concerns they raise."
+38,negative,AAPL,conversational,"Hey, is there anything worrying in AAPL's recent news? Feels like the stock's momentum has cooled."
+39,negative,AAPL,comparative,How do AAPL's recent setbacks compare with the pressures hitting its consumer-tech peers?
+40,negative,AAPL,time_anchored,What has weighed on AAPL over the past few days? Summarize the concerning stories.
+41,negative,AAPL,analytical,Analyze the risks surfacing in recent AAPL coverage and appraise how they could dent the company's earnings path.
+42,negative,AAPL,brief,AAPL red flags — quick scan.
+43,negative,NVDA,direct,What recent developments threaten NVDA's momentum?
+44,negative,NVDA,detailed,"I'm reviewing downside scenarios for NVDA. Collect the news on export restrictions, competitive entrants, margin compression, or customer concentration, and spell out the worry behind each."
+45,negative,NVDA,conversational,Anyone else uneasy about NVDA lately? What red flags are people pointing to in the news?
+46,negative,NVDA,comparative,How do the challenges facing NVDA stack up against the turbulence across the broader chip sector?
+47,negative,NVDA,time_anchored,Which NVDA stories from the past month raise concerns about the company's outlook? Recap them.
+48,negative,NVDA,analytical,Assess the recent pressure points around NVDA and judge how they might erode its growth assumptions.
+49,negative,NVDA,brief,NVDA risk signals — headline check.
+50,negative,TSLA,direct,What recent TSLA news shows the company struggling?
+51,negative,TSLA,detailed,"I'm revisiting my TSLA thesis. Gather the reports on softening demand, pricing pressure, regulatory probes, or leadership distraction, and lay out what each means for the bear case."
+52,negative,TSLA,conversational,What's gone wrong for TSLA lately? The news stream feels rougher than usual.
+53,negative,TSLA,comparative,How do TSLA's recent troubles compare with the slumps of other EV manufacturers?
+54,negative,TSLA,time_anchored,What bad news has TSLA seen since its latest earnings release? Walk me through the main items.
+55,negative,TSLA,analytical,Evaluate the recent TSLA coverage and weigh how the mounting concerns could reshape its valuation story.
+56,negative,TSLA,brief,TSLA problems — terse rundown.
+57,negative,MSFT,direct,Which recent MSFT developments look troublesome?
+58,negative,MSFT,detailed,"I'm preparing a risk section for my MSFT summary. Find the stories about cloud competition, AI-spend fatigue, or regulatory scrutiny, and articulate the concern each one creates."
+59,negative,MSFT,conversational,Anything concerning coming out of MSFT recently? I might have missed some headlines.
+60,negative,MSFT,comparative,How do the emerging worries around MSFT compare with the pressures its cloud and software rivals face?
+61,negative,MSFT,time_anchored,What has gone wrong for MSFT over the past quarter? Summarize the setbacks.
+62,negative,MSFT,analytical,Interpret the latest MSFT news and discuss which weak spots could complicate the company's growth plan.
+63,negative,MSFT,brief,MSFT warning signs — quick look.
+64,negative,AMZN,direct,What recent AMZN news suggests trouble ahead?
+65,negative,AMZN,detailed,"I'm checking for vulnerabilities in my AMZN exposure. Collect the recent reports on margin squeezes, shipping-cost inflation, or antitrust action, and detail why each one matters."
+66,negative,AMZN,conversational,Anything grim in AMZN's recent headlines? Share what you find about their rougher patches.
+67,negative,AMZN,comparative,How do AMZN's recent stumbles compare with the broader pain felt across e-commerce and cloud competitors?
+68,negative,AMZN,time_anchored,Which AMZN stories in the past few days point to potential problems? Recap the key ones.
+69,negative,AMZN,analytical,Look at AMZN's recent news and reason about which drag factors could impair its operating outlook.
+70,negative,AMZN,brief,AMZN red flags — snapshot report.
+71,neutral,AAPL,direct,What has the recent news reported about AAPL?
+72,neutral,AAPL,detailed,"I'm refreshing my notes on AAPL. Pull the latest coverage across product, supply, and policy fronts, and summarize the key facts behind each major development without editorializing."
+73,neutral,AAPL,conversational,What's the latest with AAPL? Just want a level-headed recap of what's been reported.
+74,neutral,AAPL,comparative,How has the recent news flow around AAPL compared with the coverage its industry peers have received?
+75,neutral,AAPL,time_anchored,Which AAPL stories from the past week shaped the reporting? List them with the essentials.
+76,neutral,AAPL,analytical,Summarize the newest AAPL coverage and outline which measurable drivers a careful observer should be tracking.
+77,neutral,AAPL,brief,AAPL news recap — straight facts.
+78,neutral,NVDA,direct,What's the latest reporting on NVDA?
+79,neutral,NVDA,detailed,"I'm compiling a briefing on NVDA. Gather recent items spanning demand, chip supply, and policy developments, and present the factual details behind each."
+80,neutral,NVDA,conversational,Anything new in the NVDA press this week? Give me the facts as reported.
+81,neutral,NVDA,comparative,How does the coverage of NVDA's current situation weigh against that of its semiconductor peers?
+82,neutral,NVDA,time_anchored,What did reports about NVDA surface over the past few days? Recap without slant.
+83,neutral,NVDA,analytical,Review NVDA's latest news and identify which measurable factors most likely steer its next steps.
+84,neutral,NVDA,brief,NVDA headlines — quick facts.
+85,neutral,TSLA,direct,What has been reported about TSLA lately?
+86,neutral,TSLA,detailed,"I'm writing an objective progress note on TSLA. Collect the recent reporting on operations, deliveries, and policy matters, then outline the facts each story establishes."
+87,neutral,TSLA,conversational,TSLA's been in the news constantly — what's actually being said these days? Keep it factual.
+88,neutral,TSLA,comparative,How does TSLA's recent news coverage contrast with the reporting around other automakers?
+89,neutral,TSLA,time_anchored,What happened with TSLA during the past quarter according to the news? Present the record.
+90,neutral,TSLA,analytical,Distill TSLA's recent coverage into the main factual threads and what remains uncertain.
+91,neutral,TSLA,brief,TSLA digest — headline catch-up.
+92,neutral,MSFT,direct,What's the latest news on MSFT?
+93,neutral,MSFT,detailed,"I'm compiling a status review of MSFT. Pull the recent coverage on cloud, product launches, and legal matters, and document the verified details behind each item."
+94,neutral,MSFT,conversational,"Catch me up on MSFT — what has the press been saying recently? Just the facts, please."
+95,neutral,MSFT,comparative,How does MSFT's recent coverage stack against the reporting on comparable big-cap tech names?
+96,neutral,MSFT,time_anchored,Which MSFT developments came out over the past month? Give me a straight account.
+97,neutral,MSFT,analytical,Summarize MSFT's latest coverage and flag the factual threads worth tracking in future reports.
+98,neutral,MSFT,brief,MSFT newsline — fast recap.
+99,neutral,AMZN,direct,What are the current reports saying about AMZN?
+100,neutral,AMZN,detailed,"I'm updating a company profile of AMZN. Gather recent coverage across retail operations, cloud services, and policy matters, and note the essentials each report establishes."
+101,neutral,AMZN,conversational,What's the AMZN news this morning? A plain summary of what's out there would help.
+102,neutral,AMZN,comparative,How has coverage of AMZN compared with what's been written about its e-commerce and cloud competitors?
+103,neutral,AMZN,time_anchored,What AMZN items have been reported since the start of the year? Present the summary.
+104,neutral,AMZN,analytical,Draw together AMZN's latest reporting and identify the key factual threads to watch next.
+105,neutral,AMZN,brief,AMZN roundup — essential items.
+106,mixed,AAPL,direct,What recent AAPL news shows both gains and setbacks?
+107,mixed,AAPL,detailed,"I'm weighing both sides for an AAPL piece. Collect recent items where favorable momentum and fresh challenges appear together, and map the forces on each side."
+108,mixed,AAPL,conversational,Where does AAPL stand right now? I keep seeing good and bad takes — what does the news actually show?
+109,mixed,AAPL,comparative,How do the encouraging and discouraging threads in AAPL's coverage measure up against one another?
+110,mixed,AAPL,time_anchored,Which AAPL developments in the past week showed countervailing signals? Sort them out.
+111,mixed,AAPL,analytical,Analyze the latest AAPL coverage and reconcile the opposing signals into one balanced view.
+112,mixed,AAPL,brief,AAPL two-sided news — compact view.
+113,mixed,NVDA,direct,Which NVDA stories show opportunity and risk at once?
+114,mixed,NVDA,detailed,"I'm building a balanced picture of NVDA. Find recent coverage where strong demand sits alongside supply or policy risks, and organize the pluses against the minuses."
+115,mixed,NVDA,conversational,Is NVDA a tale of two halves right now? What does the news say for both the optimists and the skeptics?
+116,mixed,NVDA,comparative,How do the upside stories around NVDA weigh against the downside ones in recent coverage?
+117,mixed,NVDA,time_anchored,"What did the NVDA news cycle surface since the latest earnings release, for better and for worse?"
+118,mixed,NVDA,analytical,Read NVDA's latest headlines and explain how the opposing forces could interact over coming quarters.
+119,mixed,NVDA,brief,NVDA ups and downs — mini wrap.
+120,mixed,TSLA,direct,What recent TSLA coverage points in both directions?
+121,mixed,TSLA,detailed,"I'm framing a two-sided analysis of TSLA. Pull items where improving operations collide with competitive or regulatory strain, and contrast the competing signals."
+122,mixed,TSLA,conversational,TSLA keeps making headlines for good and bad at the same time — what's the current picture on both fronts?
+123,mixed,TSLA,comparative,How do the conflicting TSLA threads compare with the tug-of-war seen across the EV industry?
+124,mixed,TSLA,time_anchored,What did the past month of TSLA news show — wins and losses side by side?
+125,mixed,TSLA,analytical,Weigh the recent TSLA evidence and judge which forces currently hold sway over the others.
+126,mixed,TSLA,brief,TSLA mixed bag — quick sort.
+127,mixed,MSFT,direct,Which MSFT stories show promise and peril together?
+128,mixed,MSFT,detailed,"I'm drafting a balanced MSFT assessment. Collect recent coverage pairing cloud momentum with AI-spending or legal questions, and set the gains against the drags."
+129,mixed,MSFT,conversational,I can't tell whether MSFT is thriving or wobbling. What does the latest news suggest on both counts?
+130,mixed,MSFT,comparative,Contrast the recent good and bad MSFT headlines — how do the two sets stack up against each other?
+131,mixed,MSFT,time_anchored,What opposing MSFT signals emerged over the past few days? Itemize them.
+132,mixed,MSFT,analytical,Evaluate the contradictory threads in MSFT's coverage and project which side likely prevails near term.
+133,mixed,MSFT,brief,MSFT mixed signals — tight summary.
+134,mixed,AMZN,direct,What recent AMZN news mixes strengths with worries?
+135,mixed,AMZN,detailed,"I'm structuring an even-handed AMZN briefing. Gather coverage combining retail or cloud strength with margin and legal pressures, and balance them side by side."
+136,mixed,AMZN,conversational,AMZN gives me whiplash lately — where are both the highs and lows showing up in the news?
+137,mixed,AMZN,comparative,How do AMZN's encouraging and unsettling stories compare when set against one another?
+138,mixed,AMZN,time_anchored,Which dual-signal AMZN items appeared over the past week? Present both edges.
+139,mixed,AMZN,analytical,Bring together AMZN's contradicting storylines and reason out their net effect on performance prospects.
+140,mixed,AMZN,brief,AMZN both ways — condensed look.
+141,ambiguous_complex,AAPL,direct,What's really going on with AAPL given the conflicting recent reports?
+142,ambiguous_complex,AAPL,detailed,"I'm trying to interpret AAPL's news stream, which seems to point in several directions at once. Collect the recent items, flag where they conflict, and suggest how the mixed picture should be read."
+143,ambiguous_complex,AAPL,conversational,"Honestly, AAPL coverage has me confused. Some pieces sound upbeat, others not so much — can you untangle what's happening?"
+144,ambiguous_complex,AAPL,comparative,"Given the diverging narratives around AAPL, how should the company's situation be read against the wider consumer-tech landscape?"
+145,ambiguous_complex,AAPL,time_anchored,The AAPL picture since the latest earnings release seems contradictory — what did the coverage in that window actually show?
+146,ambiguous_complex,AAPL,analytical,Sort through the tension in AAPL's recent coverage and reason about which interpretation best fits the facts.
+147,ambiguous_complex,AAPL,brief,"AAPL — cloudy picture, quick untangle."
+148,ambiguous_complex,NVDA,direct,Expert takes on NVDA seem split — what does the news actually support?
+149,ambiguous_complex,NVDA,detailed,"I'm wrestling with NVDA's contested narratives, where demand sustainability is argued both ways. Pull the recent reporting, surface the crux of the disagreement, and map the evidence each side leans on."
+150,ambiguous_complex,NVDA,conversational,NVDA chatter is all over the place lately. Could you piece together what the recent reporting says — and where it disagrees?
+151,ambiguous_complex,NVDA,comparative,There are competing reads on NVDA. How do the differing interpretations compare with the signals coming from chip-sector news at large?
+152,ambiguous_complex,NVDA,time_anchored,Coverage on NVDA shifted during the past quarter — what does that record show about where the company is heading?
+153,ambiguous_complex,NVDA,analytical,Disentangle the contested threads in NVDA's recent news and reason toward the most defensible reading of its outlook.
+154,ambiguous_complex,NVDA,brief,"NVDA — tangled story, fast unpack."
+155,ambiguous_complex,TSLA,direct,What should I make of the contradictory TSLA coverage right now?
+156,ambiguous_complex,TSLA,detailed,"I'm trying to make sense of TSLA, where headlines swing between revival and decline. Gather the recent items, pinpoint the interpretive conflicts, and sketch how a careful reader should weigh them."
+157,ambiguous_complex,TSLA,conversational,"One week TSLA's making a comeback, the next it's in trouble. What do the latest reports really indicate?"
+158,ambiguous_complex,TSLA,comparative,How should the competing interpretations of TSLA's news be weighed against each other — and against rival automakers' trajectories?
+159,ambiguous_complex,TSLA,time_anchored,TSLA coverage over the past month reads both hopeful and grim. What does that record suggest overall?
+160,ambiguous_complex,TSLA,analytical,Untangle why TSLA reporting diverges so sharply and argue which account the available evidence best supports.
+161,ambiguous_complex,TSLA,brief,"TSLA — conflicting signs, fast unravel."
+162,ambiguous_complex,MSFT,direct,"Why is the MSFT news so hard to read, and what's behind the noise?"
+163,ambiguous_complex,MSFT,detailed,"I'm building a judgment call on MSFT, where signals around growth and spending pull in opposite senses. Assemble the recent coverage, expose the interpretive tensions, and outline how they could be resolved."
+164,ambiguous_complex,MSFT,conversational,MSFT headlines leave me unsure whether things are going well. Can you cut through the noise and tell me what to believe?
+165,ambiguous_complex,MSFT,comparative,"With mixed signals swirling around MSFT, how might they be read against the broader cloud-and-AI sector story?"
+166,ambiguous_complex,MSFT,time_anchored,"What did MSFT coverage over the past quarter suggest, considering the mixed impressions it leaves?"
+167,ambiguous_complex,MSFT,analytical,Probe the ambiguous threads in MSFT's recent news and develop a reasoned view of what they imply.
+168,ambiguous_complex,MSFT,brief,"MSFT — murky signals, quick read."
+169,ambiguous_complex,AMZN,direct,The AMZN picture feels unsettled — what does recent coverage actually support?
+170,ambiguous_complex,AMZN,detailed,"I'm assessing AMZN amid genuinely open questions about retail margins and cloud competition. Collect the recent items, mark the points of interpretive conflict, and trace how each side builds its case."
+171,ambiguous_complex,AMZN,conversational,Is AMZN doing fine or not? The coverage keeps flip-flopping — help me figure out what's actually going on.
+172,ambiguous_complex,AMZN,comparative,AMZN's story reads differently depending on the source — how should that be navigated against how the rest of the sector is covered?
+173,ambiguous_complex,AMZN,time_anchored,"From the start of the year, what do the conflicting AMZN stories collectively point to?"
+174,ambiguous_complex,AMZN,analytical,Weigh the unsettled strands in AMZN's reporting and reason about which reading of its direction is best supported.
+175,ambiguous_complex,AMZN,brief,"AMZN — unresolved story, short take."

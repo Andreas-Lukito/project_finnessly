@@ -78,7 +78,7 @@ markdown_render_tool = _spy(markdown_render_tool)
 #Agents
 news_gathering = Agent(
     role="news_gathering",
-    goal="Proactively search the latest and relevant news about stock market and finance. Formulate effective, specific search queries for the search tool to fully utilize it, and gather 5 to 10 news articles. Never ask the user follow-up questions or whether they want a newer news source - proceed autonomously.",
+    goal="Proactively search the latest and relevant news about stock market and finance. Formulate effective, specific search queries for the search tool to fully utilize it, and gather 5 to 10 news articles. Never ask the user follow-up questions or whether they want a newer news source - proceed autonomously. If the search tool returns few, stale, or no results, retry with reformulated queries and proceed with the best material obtained. Do not wait for user input under any circumstances.",
     backstory="You are a news gathering agent that collects the latest news articles about stock market and finance based on user prompts. You will provide relevant and up-to-date information to assist users in making informed decisions.",
     tools=[search_tool],
     llm=llm,
@@ -86,7 +86,7 @@ news_gathering = Agent(
 
 news_sentiment = Agent(
     role="news_sentiment",
-    goal="Use the sentiment tool to analyze the sentiment of news articles about stock market and finance prompted by the user. Provide a summary of the sentiment analysis results. the tool would output a sentiment of neutral, positive, or negative.",
+    goal="Use the sentiment tool to analyze the sentiment of news articles about stock market and finance prompted by the user. Provide a summary of the sentiment analysis results. the tool would output a sentiment of neutral, positive, or negative. Never ask the user questions or request confirmation or preferences at any point; complete your assigned work autonomously.",
     backstory="You are a sentiment analysis agent that analyzes the sentiment of news articles about stock market and finance based on user prompts. You will provide a summary of the sentiment analysis results to assist users in understanding the overall sentiment of the news articles.",
     tools=[sentiment_tool],
     llm=llm,
@@ -94,14 +94,14 @@ news_sentiment = Agent(
 
 news_summarizing = Agent(
     role="news_summarizing",
-    goal="summarize the news articles with the sentiment analysis results and provide a summary of the news articles about stock market and finance prompted by the user.",
+    goal="summarize the news articles with the sentiment analysis results and provide a summary of the news articles about stock market and finance prompted by the user. Never ask the user questions or request confirmation or preferences at any point; complete your assigned work autonomously.",
     backstory="You are a news gathering agent that collects the latest news articles about stock market and finance based on user prompts. You will provide relevant and up-to-date information to assist users in making informed decisions.",
     llm=llm,
 )
 
 news_reporting = Agent(
     role="news_reporting",
-    goal="Compile the summarized news articles with sentiment analysis results and provide a final report of the news articles about stock market and finance prompted by the user.",
+    goal="Compile the summarized news articles with sentiment analysis results and provide a final report of the news articles about stock market and finance prompted by the user. Never ask the user questions or request confirmation or preferences at any point; complete your assigned work autonomously.",
     backstory="You are a news gathering agent that collects the latest news articles about stock market and finance based on user prompts. You will provide relevant and up-to-date information to assist users in making informed decisions.",
     tools=[markdown_render_tool],
     llm=llm,
@@ -110,7 +110,7 @@ news_reporting = Agent(
 task_gathering = Task(
     description=(
         "Search for the latest news articles about '{topic}' using the search tool. "
-        "Collect relevant article titles, URLs, and content snippets worth analyzing."
+        "Collect relevant article titles, URLs, and content snippets worth analyzing. Complete the task fully without asking the user for confirmation or choices; if information is missing, state the limitation explicitly in the output and continue anyway."
     ),
     expected_output=(
         "A structured list of the latest relevant news articles about '{topic}', "
@@ -123,7 +123,7 @@ task_sentiment = Task(
     description=(
         "For each news article gathered about '{topic}', call the analyze_sentiment function "
         "(imported from utils.tools.sentiment_tool) on its text using model_type='finbert'. "
-        "Aggregate the results into an overall sentiment summary."
+        "Aggregate the results into an overall sentiment summary. Complete the task fully without asking the user for confirmation or choices; if information is missing, state the limitation explicitly in the output and continue anyway."
     ),
     expected_output=(
         "A per-article sentiment breakdown (positive/negative/neutral with confidence) "
@@ -136,7 +136,7 @@ task_sentiment = Task(
 task_summarizing = Task(
     description=(
         "Summarize the gathered news articles about '{topic}' together with their sentiment analysis results "
-        "into a clear, concise summary."
+        "into a clear, concise summary. Complete the task fully without asking the user for confirmation or choices; if information is missing, state the limitation explicitly in the output and continue anyway."
     ),
     expected_output=(
         "A well-structured summary of the latest news about '{topic}' that integrates "
@@ -150,10 +150,10 @@ task_reporting = Task(
     description=(
         "Compile the summarized news and sentiment results about '{topic}' into a final structured financial report, "
         "then use the markdown_render_tool (topic, summary, sentiment, overview) to save it as a markdown file. "
-        "The tool always saves to the project's reports directory — do not pass a path in the filename."
+        "The tool always saves to the project's reports directory — do not pass a path in the filename. Complete the task fully without asking the user for confirmation or choices; if information is missing, state the limitation explicitly in the output and continue anyway."
     ),
     expected_output=(
-        "A complete structured financial report about '{topic}' in markdown format, saved to disk."
+        "A complete structured financial report about '{topic}' in markdown format, saved to disk. The final answer must be the complete report itself — never a status update or a request for user input."
     ),
     agent=news_reporting,
     context=[task_summarizing],
@@ -168,6 +168,9 @@ crew = Crew(
 )
 
 async def workflow_B_run(topic: str) -> tuple[str, list]:
+    # per-run isolation: the recorder must only contain THIS run's calls,
+    # otherwise later cases inherit earlier cases' tool calls and reports
+    TOOL_CALL_LOG.clear()
     result = await crew.kickoff_async(inputs={"topic": topic})
 
     return str(result), list(TOOL_CALL_LOG)
