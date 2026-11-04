@@ -5,3 +5,6 @@ __pycache__/
 
 .deepeval/
 evaluation_results/
+chatbot_app/chats/
+/chatbot_app/__pycache__/
+/chatbot_app/chats/
